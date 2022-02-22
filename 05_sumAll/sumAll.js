@@ -1,7 +1,5 @@
 const sumAll = function(...args) {
-    args.sort();
-    args[0];
-    args[1];
+    args.sort(); //Sorts arguemtns to ensure min number is first.
     if(args[0] < 0|| args[1] < 0)
     {
         return 'ERROR';
@@ -10,6 +8,7 @@ const sumAll = function(...args) {
     {
         return 'ERROR';
     }
+
     let result = 0;
     for(let i = args[0]; i <= args[1]; i++)
     {
